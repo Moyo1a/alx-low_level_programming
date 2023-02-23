@@ -1,18 +1,18 @@
 #include "main.h"
-/**  
-* main - this is the real data point
-* Description - the function prints _putchar stdout
+
+/**
+* main - this contains the function putchar
 * Return: always success (0)
 */
 int main(void)
 {
 	_putchar('p');
-	_putchar('u');
+	_putchat('u');
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
+	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0);
-}
+
