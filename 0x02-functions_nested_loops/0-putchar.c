@@ -1,6 +1,7 @@
 #include "main.h"
-/**
-* main - the function prints _putchar stdout
+/**  
+* main - this is the real data point
+* Description - the function prints _putchar stdout
 * Return: always success (0)
 */
 int main(void)
