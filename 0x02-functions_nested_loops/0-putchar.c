@@ -1,20 +1,20 @@
 #include "main.h"
-
 /**
-* main - this contains the function putchar
+* main - this contains the putchar function
 * Return: always success (0)
 */
+
 int main(void)
 {
 	_putchar('p');
-	_putchat('u');
+	_putchar('u');
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
 
