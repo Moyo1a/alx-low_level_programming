@@ -3,7 +3,7 @@
 * main - this prints alphabets in lower case
 * Return: always show success 0
 */
-int 
+void _alphabet(void)
 {	
 	int j;
 	for (j = 'a'; j <= 'z'; j++)
