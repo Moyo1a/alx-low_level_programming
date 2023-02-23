@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* main - this contains the putchar function
+* main - this contain the putchar entity
 * Return: always success (0)
 */
+
 int main(void)
 {
 	_putchar('p');
@@ -15,4 +16,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
