@@ -3,7 +3,6 @@
 * main - the function prints _putchar stdout
 * Return: always success (0)
 */
-
 int main(void)
 {
 	_putchar('p');
