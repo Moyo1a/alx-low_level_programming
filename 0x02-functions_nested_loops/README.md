@@ -1,0 +1,1 @@
+This project uses the betty style. It will be checked using betty-style.pl and betty-doc.pl. No use of global variables No more than 5 functions per file. main.c files are used for compilations. Prototype of _putchar must be included in the header file calles main.h
