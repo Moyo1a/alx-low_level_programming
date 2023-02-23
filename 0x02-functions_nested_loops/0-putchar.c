@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
   * main - this contains _putchar function
   * Return: returns (0) if success
