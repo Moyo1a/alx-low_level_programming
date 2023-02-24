@@ -1,6 +1,6 @@
-include "main.h"
+#include "main.h"
 /**
-* main - this contains putchar function
+* main - this contain the putchar function
 * Return: always success (0)
 */
 int main(void)
