@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_alphabet_x10 - Prints lowercase case alphabets x10
-* Return: always success (0)
+* Return: always 0 (Success)
 */
 void print_alphabet_x10(void)
 {
