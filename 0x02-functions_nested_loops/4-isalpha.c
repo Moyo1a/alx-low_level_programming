@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* _isalpha - shows 1 if input is a letter.
-* Another case if not letter shows 0
-* @c: Characters from ASCII code
-* Return: shows 1 for letters, 0 for other character
+* _isalpha - this shows 1 if the input is a lowercase character.
+* Another case shows 0
+* @c: the ASCII code characters
+* Return: always 1 for lowercase, 0 if otherwise
 */
 int _isalpha(int c)
 {
@@ -15,5 +15,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
