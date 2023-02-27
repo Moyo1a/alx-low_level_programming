@@ -1,7 +1,7 @@
 #include "main.h"
-/*
-*jack_bauer - prints 24 hours time
-* Return: minutes and hour
+/**
+* jack_bauer - prints 24 hours make a day
+* Return: hours and minutes
 */
 void jack_bauer(void)
 {
@@ -12,17 +12,13 @@ void jack_bauer(void)
 	{
 		for (j = 0; j < 60; j++)
 		{
-			_putchar(i \ 10 + '0');
+			_putchar(i / 10 + '0');
 			_putchar(i % 10 + '0');
-			_putchar(":")
-			_putchar(j \ 10 + '0');
+			_putchar(":");
+			_putchar(j / 10 + '0');
 			_putchar(j % 10 + '0');
 			_putchar('\n');
 		}
 	}
 }
-
-
-
-
 
