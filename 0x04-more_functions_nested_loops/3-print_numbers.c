@@ -5,14 +5,13 @@
 */
 void print_numbers(void)
 {
-	int start = 0, end = 9
+	int n;
 
-		while (start <= end)
-		{
-			putchar(start + '0');
-			start++;
-		}
-	_putchar('\n');
+	for (n = 0; n <= 9; n++)
+	{
+		_putchar((n % 10) + '0');
+	}
+		_putchar('\n');
 }
 
 
