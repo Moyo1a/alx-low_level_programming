@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - entry point
-* Description:check for a number if positive or negative of
-* Return: always 0
+ *main - entry point
+ *Description:check for a number if positive or negative of
+ *Return: always 0
 */
 int main(void)
 {
@@ -21,6 +21,8 @@ int main(void)
 		printf("%d is zero", n);
 	}
 	else
+	{
 		printf("%d is negative", n);
+	}
 	return (0);
 }
